@@ -60,7 +60,7 @@ i18n.configure({
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`Thử nghiệm trên Gitlch bởi yuukidev#4827`, { type: "PLAYING" });
+  client.user.setActivity(`,help || Yuuki Global`, { type: "PLAYING" });
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
